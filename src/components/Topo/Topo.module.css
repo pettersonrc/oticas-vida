@@ -1,0 +1,30 @@
+.container_topo {
+    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.container_topo div {
+    max-width: 1024px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.oticas_logo {
+    height: 50px;
+    width: auto;
+}
+
+.container_links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+.links {
+    text-decoration: none;
+    color: #000000;
+}
