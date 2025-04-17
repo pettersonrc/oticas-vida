@@ -1,6 +1,10 @@
 import Head from "next/head";
 import estilos from "@/styles/Home.module.css";
 import Topo from "../components/Topo";
+import SecaoCapa from "@/components/SecaoCapa";
+import SecaoProdutos from "@/components/SecaoProdutos";
+import SecaoSobre from "@/components/SecaoSobre";
+import SecaoContato from "@/components/SecaoContato";
 
 export default function Home() {
     return (
@@ -18,6 +22,10 @@ export default function Home() {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <Topo />
+            <SecaoCapa />
+            <SecaoProdutos />
+            <SecaoSobre />
+            <SecaoContato />
         </>
     );
 }

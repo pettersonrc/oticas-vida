@@ -1,2 +1,26 @@
 .container_secao_capa {
+    height: 90vh;
+
+    background-image: url("../../../public/capa.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.container_secao_50 {
+    width: 50%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.container_titulo {
+    color: white;
+    width: 50%;
+    font-size: 1.3em;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
