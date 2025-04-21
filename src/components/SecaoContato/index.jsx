@@ -19,34 +19,38 @@ export default function SecaoContato() {
             </div>
 
             <div className={estilos.container_contatos_redes}>
-                <div className={estilos.container_contato}>
+                <div className={estilos.container_informacoes}>
                     <h3>Contato</h3>
-                    <div>
-                        <Image src={Local} className={estilos.icons}></Image>
-                        <span>Nova Iguaçu, RJ</span>
-                    </div>
-                    <div>
-                        <Image src={Telefone} className={estilos.icons}></Image>
-                        <span>(21) 9999-9999</span>
-                    </div>
-                    <div>
-                        <Image src={Email} className={estilos.icons}></Image>
-                        <span>contato@oticavida.com</span>
+                    <div className={estilos.informacoes}>
+                        <div className={estilos.texto_icon}>
+                            <Image src={Local} className={estilos.icons}></Image>
+                            <span>Nova Iguaçu, RJ</span>
+                        </div>
+                        <div className={estilos.texto_icon}>
+                            <Image src={Telefone} className={estilos.icons}></Image>
+                            <span>(21) 9999-9999</span>
+                        </div>
+                        <div className={estilos.texto_icon}>
+                            <Image src={Email} className={estilos.icons}></Image>
+                            <span>contato@oticavida.com</span>
+                        </div>
                     </div>
                 </div>
-                <div className={estilos.container_redes_sociais}>
+                <div className={estilos.container_informacoes}>
                     <h3>Nossas Redes Sociais</h3>
-                    <div>
-                        <Image src={Facebook} className={estilos.icons}></Image>
-                        <span>/OticaVida</span>
-                    </div>
-                    <div>
-                        <Image src={Instagram} className={estilos.icons}></Image>
-                        <span>@oticavidarj</span>
-                    </div>
-                    <div>
-                        <Image src={Twitter} className={estilos.icons}></Image>
-                        <span>@oticavidarj</span>
+                    <div className={estilos.informacoes}>
+                        <div className={estilos.texto_icon}>
+                            <Image src={Facebook} className={estilos.icons}></Image>
+                            <span>/OticaVida</span>
+                        </div>
+                        <div className={estilos.texto_icon}>
+                            <Image src={Instagram} className={estilos.icons}></Image>
+                            <span>@oticavidarj</span>
+                        </div>
+                        <div className={estilos.texto_icon}>
+                            <Image src={Twitter} className={estilos.icons}></Image>
+                            <span>@oticavidarj</span>
+                        </div>
                     </div>
                 </div>
             </div>
